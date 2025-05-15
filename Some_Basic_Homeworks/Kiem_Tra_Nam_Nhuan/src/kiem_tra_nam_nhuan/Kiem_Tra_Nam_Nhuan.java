@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Minh Triet
  */
-public class Kiem_Tra_Nam_Nhuan {
+public class Kiem_Tra_Nam_Nhuan  {
 
     /**
      * @param args the command line arguments
