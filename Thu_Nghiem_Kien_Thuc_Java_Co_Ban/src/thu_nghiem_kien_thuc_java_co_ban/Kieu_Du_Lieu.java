@@ -14,5 +14,12 @@ public class Kieu_Du_Lieu {
         //Value range from -128 to 127. Default value zero.
         byte a = -120;
         System.out.println("a: "+ a);
+        byte b = 0 ;
+        System.out.println("b: "+ b);
+        //Gãy cổ
+//        byte c = -129 ;
+//        System.out.println("c: "+ c);
+//        byte d = 129 ;
+//        System.out.println("d: "+ d);
     }
 }
