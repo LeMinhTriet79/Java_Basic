@@ -10,7 +10,9 @@ package thu_nghiem_kien_thuc_java_co_ban;
  */
 public class Kieu_Du_Lieu {
     public static void main(String[] args) {
-        byte a = 20;
+        //byte : It is 1 byte(8-bits) integer data type. 
+        //Value range from -128 to 127. Default value zero.
+        byte a = -120;
         System.out.println("a: "+ a);
     }
 }
