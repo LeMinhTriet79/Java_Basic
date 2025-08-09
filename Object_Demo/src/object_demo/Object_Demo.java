@@ -15,7 +15,7 @@ public class Object_Demo {
         Student_02 c = new Student_02();
         
         Student_02 d = new Student_02();
-        
+        d.
         
         System.out.println(b);
         System.out.println(c); //TRỐNG RỖNG, KHI SÀI PHUƠNG THỨC RỖNG THÌ PHẢT GET SET

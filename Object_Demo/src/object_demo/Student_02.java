@@ -3,6 +3,7 @@
  *
  * @author Le Minh Triet
  */
+ //CLASS KHỞI TẠO ĐỐI TUỢNG NÀY KHÔNG CÓ SỬ DỤNG TÍNH ĐÓNG GÓI
 public class Student_02 {
    int id;
    String name;
@@ -13,30 +14,6 @@ public class Student_02 {
     public Student_02(int id, String name, int yob) {
         this.id = id;
         this.name = name;
-        this.yob = yob;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getYob() {
-        return yob;
-    }
-
-    public void setYob(int yob) {
         this.yob = yob;
     }
 
