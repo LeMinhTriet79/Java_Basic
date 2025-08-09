@@ -46,10 +46,10 @@ public class Student {
         this.yob = yob;
     }
 
-    //@Override
-   // public String toString() {
-    //    return "Student{" + "id=" + id + ", name=" + name + ", yob=" + yob + '}';
-    //}
+    @Override
+    public String toString() {
+        return "Student{" + "id=" + id + ", name=" + name + ", yob=" + yob + '}';
+    }
   
     
   
