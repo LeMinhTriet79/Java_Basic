@@ -11,7 +11,7 @@ public class Object_Demo {
         a1.setName("Nguyễn Hoàng Huy");
         a1.setYob(21);
         System.out.println(a);
-        System.out.println(a1.getName().toLowerCase());
+        System.out.println("Lấy ra họ tên viết thuờng của a1: "  + a1.getName().toLowerCase());
         
         //===================================//
          //CLASS KHỞI TẠO ĐỐI TUỢNG NÀY KHÔNG CÓ SỬ DỤNG TÍNH ĐÓNG GÓI
