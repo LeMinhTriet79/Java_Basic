@@ -9,7 +9,7 @@ public class Object_Demo {
         System.out.println(a);
         
         //===================================//
-        
+         //CLASS KHỞI TẠO ĐỐI TUỢNG NÀY KHÔNG CÓ SỬ DỤNG TÍNH ĐÓNG GÓI
         Student_02 b = new Student_02(1, "Phạm Võ Khải Anh", 21);
         
         Student_02 c = new Student_02();
