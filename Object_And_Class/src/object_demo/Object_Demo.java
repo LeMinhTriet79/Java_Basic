@@ -39,9 +39,11 @@ public class Object_Demo {
                 + " Câu trả lời là: " + t0.kiem_tra_tuoi(t0.getYob()));
         
       Student_With_Methods t1 = new Student_With_Methods(11, "Nguyễn Văn Hoài", 19);   
+        System.out.println(t1);
       System.out.println("Đối tuợng " + t1.getName() +" đã đủ 18 tuổi chưa?"
                 + " Câu trả lời là: " + t1.kiem_tra_tuoi(t1.getYob()));
       
       t1.talk();
+      t1.display();
     }    
 }

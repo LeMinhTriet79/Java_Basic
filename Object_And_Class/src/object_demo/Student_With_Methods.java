@@ -14,6 +14,7 @@ public class Student_With_Methods {
         this.id = id;
         this.name = name;
         this.yob = yob;
+        //yob = this.yob;
     }
 
     public int getId() {
@@ -47,8 +48,12 @@ public class Student_With_Methods {
     //Kiểm tra tuổi bằng xét tuổi rồi trả về chuỗi thông tin Rồi/Chưa
     public String kiem_tra_tuoi(int yob){
         if(yob >= 18) return "Rồi";
-        
         return "Chưa";
+    }
+    
+    public void display() {
+        System.out.println("Tên: " + name);
+        System.out.println("Tuổi: " + yob);
     }
     
     public void talk(){
