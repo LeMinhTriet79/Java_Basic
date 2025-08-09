@@ -40,8 +40,15 @@ public class Student_With_Methods {
         this.yob = yob;
     }
 
+    //Kiểm tra tuổi bằng boolean
     public boolean check_Yob(int yob){
         return yob >= 18 ? true : false;
+    }
+    //Kiểm tra tuổi bằng xét tuổi rồi trả về chuỗi thông tin Rồi/Chưa
+    public String kiem_tra_tuoi(int yob){
+        if(yob >= 18) return "Rồi";
+        
+        return "Chưa";
     }
     
     @Override

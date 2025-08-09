@@ -29,7 +29,10 @@ public class Object_Demo {
         System.out.println(d);
         //=================================//
         //Class chứa phuơng thức
-        
+        Student_With_Methods t0 = new Student_With_Methods(3, "Võ Thị Diễm Em", 17);
+        System.out.println(t0);
+        System.out.println("Đối tuợng này đã đủ 18 tuổi chưa?"
+                + "Câu trả lời là: " + t0.check_Yob(t0.getYob()));
         
     }    
 }
