@@ -6,7 +6,12 @@ package object_demo;
 public class Object_Demo {
     public static void main(String[] args) {
         Student a = new Student(1, "Nguyễn Văn Hoài" , 16);
+        Student a1 = new Student();
+        a1.setId(2);
+        a1.setName("Nguyễn Hoàng Huy");
+        a1.setYob(21);
         System.out.println(a);
+        System.out.println(a1);
         
         //===================================//
          //CLASS KHỞI TẠO ĐỐI TUỢNG NÀY KHÔNG CÓ SỬ DỤNG TÍNH ĐÓNG GÓI
