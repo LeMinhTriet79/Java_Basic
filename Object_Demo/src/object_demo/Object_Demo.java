@@ -11,9 +11,6 @@ package object_demo;
  */
 public class Object_Demo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
     }
