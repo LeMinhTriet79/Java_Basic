@@ -5,9 +5,9 @@ package object_demo;
  */
 public class Object_Demo {
     public static void main(String[] args) {
-        Student van_hoai = new Student(1, "Nguyễn Văn Hoài" , 16);
+        Student a = new Student(1, "Nguyễn Văn Hoài" , 16);
         
-        System.out.println(van_hoai);
+        System.out.println(a);
         
     }    
 }
