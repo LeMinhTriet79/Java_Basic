@@ -33,9 +33,13 @@ public class Object_Demo {
         System.out.println(t0);
         //hàm trả về boolean
         System.out.println("Đối tuợng " + t0.getName() +" đã đủ 18 tuổi chưa?"
-                + "Câu trả lời là: " + t0.check_Yob(t0.getYob()));
+                + " Câu trả lời là: " + t0.check_Yob(t0.getYob()));
        //hàm trả về chuỗi
         System.out.println("Đối tuợng này đã đủ 18 tuổi chưa?"
-                + "Câu trả lời là: " + t0.kiem_tra_tuoi(t0.getYob()));
+                + " Câu trả lời là: " + t0.kiem_tra_tuoi(t0.getYob()));
+        
+      Student_With_Methods t1 = new Student_With_Methods(11, "Nguyễn Văn Hoài", 19);   
+      System.out.println("Đối tuợng " + t1.getName() +" đã đủ 18 tuổi chưa?"
+                + " Câu trả lời là: " + t1.kiem_tra_tuoi(t1.getYob()));
     }    
 }
