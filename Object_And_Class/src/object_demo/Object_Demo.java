@@ -27,5 +27,9 @@ public class Object_Demo {
         System.out.println(b);
         System.out.println(c); //TRỐNG RỖNG, KHI SÀI PHUƠNG THỨC RỖNG THÌ PHẢI GET SET/GÁN GIÁ TRỊ
         System.out.println(d);
+        //=================================//
+        //Class chứa phuơng thức
+        
+        
     }    
 }
