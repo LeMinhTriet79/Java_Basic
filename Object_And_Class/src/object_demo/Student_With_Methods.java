@@ -51,6 +51,10 @@ public class Student_With_Methods {
         return "Chưa";
     }
     
+    public void talk(){
+        System.out.println("HỌC HÀNH CHĂM CHỈ, CHỊU KHÓ CHỊU KHĂN");
+    }
+    
     @Override
     public String toString() {
         return "Student{" + "id=" + id + ", name=" + name + ", yob=" + yob + '}';
