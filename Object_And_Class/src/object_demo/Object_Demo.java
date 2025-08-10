@@ -42,8 +42,9 @@ public class Object_Demo {
         System.out.println(t1);
       System.out.println("Đối tuợng " + t1.getName() +" đã đủ 18 tuổi chưa?"
                 + " Câu trả lời là: " + t1.kiem_tra_tuoi(t1.getYob()));
-      
       t1.talk();
+      System.out.println("======================");
+      t0.display();
       t1.display();
     }    
 }
