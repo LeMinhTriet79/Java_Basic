@@ -17,5 +17,6 @@ public class Demo_Method {
     
      public void method_02(){
         System.out.println("Phuơng Thức 2 gọi phuơng thức 1");
+         method_01();
     }
 }
