@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package this_keywork;
 
 /**
@@ -11,4 +6,11 @@ package this_keywork;
  */
 public class This_Test {
     
+    void display(This_Test obj){
+        System.out.println("Phuơng thức này đã đuợc gọi với đối tuợng: " + obj);
+    }
+    
+    void call(){
+        display(this);
+    }
 }
