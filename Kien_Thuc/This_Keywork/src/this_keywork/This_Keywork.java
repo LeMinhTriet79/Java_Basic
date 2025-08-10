@@ -16,6 +16,13 @@ public class This_Keywork {
         
         b1.display();
         b2.display();
+        
+        //===================================================//
+        
+        This_Test t = new This_Test();
+        
+        t.call();
+        
     }
     
 }

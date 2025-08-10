@@ -13,4 +13,11 @@ public class This_Test {
     void call(){
         display(this);
     }
+
+    @Override
+    public String toString() {
+        return "This_Test{" + '}';
+    }
+    
+    
 }
