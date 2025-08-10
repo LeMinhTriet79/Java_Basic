@@ -12,6 +12,10 @@ package this_keywork;
 public class Demo_Method {
     
     public void method_01(){
-        System.out.println("Me");
+        System.out.println("Phuơng Thức 1 đã gọi lên");
+    }
+    
+     public void method_02(){
+        System.out.println("Phuơng Thức 2 gọi phuơng thức 1");
     }
 }
