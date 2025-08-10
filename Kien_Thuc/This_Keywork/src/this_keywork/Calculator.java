@@ -10,5 +10,20 @@ package this_keywork;
  * @author Le Minh Triet
  */
 public class Calculator {
+    int value;
+
+    public Calculator add(int n) {
+        this.value += n;
+        return this;
+    }
+
+    public Calculator multiply(int n) {
+        this.value *= n;
+        return this;
+    }
+    
+    void display(){
+        System.out.println("Result: " + value);
+    }
     
 }

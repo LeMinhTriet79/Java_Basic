@@ -23,6 +23,10 @@ public class This_Keywork {
         
         t.call();
         
+        //=======================================================//
+        
+        Calculator c = new Calculator();
+        c.add(5).multiply(3).display();
     }
     
 }
