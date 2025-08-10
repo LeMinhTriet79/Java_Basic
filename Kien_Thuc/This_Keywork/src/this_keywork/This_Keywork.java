@@ -11,7 +11,11 @@ public class This_Keywork {
         
         //===========================================//
         
-        Book b1 = new
+        Book b1 = new Book();
+        Book b2 = new Book("Java Basics", 15.5);
+        
+        b1.display();
+        b2.display();
     }
     
 }
