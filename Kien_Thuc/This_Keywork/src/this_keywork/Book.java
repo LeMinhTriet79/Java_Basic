@@ -14,7 +14,7 @@ public class Book {
     double price;
 
     Book() {
-        this("Unknown", 0.0);  // Gọi constructor khác trong cùng class
+        //this("Unknown", 0.0);  // Gọi constructor khác trong cùng class
     }
 
     Book(String title, double price) {
