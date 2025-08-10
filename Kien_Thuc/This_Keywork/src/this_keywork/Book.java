@@ -19,5 +19,8 @@ public class Book {
 
     void display() {
         System.out.println(title + " - " + price + "$");
+        //add() và multiply() trả về cùng một object nên ta có thể nối chuỗi lệnh.
+
+
     }
 }

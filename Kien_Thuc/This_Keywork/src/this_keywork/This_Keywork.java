@@ -26,7 +26,9 @@ public class This_Keywork {
         //=======================================================//
         
         Calculator c = new Calculator();
+        Calculator q = new Calculator();
         c.add(5).multiply(3).display();
+        q.add(2).multiply(3).display();
     }
     
 }
