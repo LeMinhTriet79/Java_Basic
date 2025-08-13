@@ -25,7 +25,7 @@ public class Traditiona_lFeast_Order_Management {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args)  {
         //String thoiGian =  timeNow();
   
         String fileName = "Ghi_File.txt";
@@ -37,7 +37,7 @@ public class Traditiona_lFeast_Order_Management {
     }
     private static String timeNow(){
         Date now = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm,dd-MM-yy");
+        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss, dd-MM-yy");
         //Nếu mà ghi định dạng tháng là mm - chữ thuờng thì coi như là ra kết quả sai
         return sdf.format(now);
     }
