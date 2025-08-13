@@ -18,7 +18,7 @@ public class Traditiona_lFeast_Order_Management {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String thoiGian = timeNow;
+        String thoiGian =  timeNow();
         System.out.println("Ngày hịên tại: " + time);
     }
     private static String timeNow(){
