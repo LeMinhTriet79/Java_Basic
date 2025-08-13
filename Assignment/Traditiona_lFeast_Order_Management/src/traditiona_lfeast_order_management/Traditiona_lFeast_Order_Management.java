@@ -5,6 +5,7 @@
  */
 package traditiona_lfeast_order_management;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -21,6 +22,7 @@ public class Traditiona_lFeast_Order_Management {
     }
     private String timeNow(){
         Date now = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat();
     }
     
 }
