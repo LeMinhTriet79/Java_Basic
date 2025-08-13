@@ -5,10 +5,12 @@
  */
 package models;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Le Minh Triet
  */
-public class Customer {
+public class Customer implements Serializable{
     
 }

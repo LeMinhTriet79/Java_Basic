@@ -20,6 +20,8 @@ public class Traditiona_lFeast_Order_Management {
     public static void main(String[] args) {
         //String thoiGian =  timeNow();
         System.out.println("Ngày hiện tại: " + timeNow());
+        
+        String file = "Ghi_File.txt";
     }
     private static String timeNow(){
         Date now = new Date();
