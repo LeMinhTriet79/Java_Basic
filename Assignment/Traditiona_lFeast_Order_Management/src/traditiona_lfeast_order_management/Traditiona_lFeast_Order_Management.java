@@ -18,11 +18,13 @@ public class Traditiona_lFeast_Order_Management {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String thoiGian = timeNow;
+        System.out.println("Ngày hịên tại: " + time);
     }
-    private String timeNow(){
+    private static String timeNow(){
         Date now = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat();
+        SimpleDateFormat sdf = new SimpleDateFormat("ddMMyy");
+        return sdf.format(now);
     }
     
 }
