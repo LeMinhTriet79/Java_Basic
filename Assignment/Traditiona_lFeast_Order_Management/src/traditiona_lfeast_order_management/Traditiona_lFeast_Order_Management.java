@@ -5,6 +5,8 @@
  */
 package traditiona_lfeast_order_management;
 
+import java.util.Date;
+
 /**
  *
  * @author Le Minh Triet
@@ -16,6 +18,9 @@ public class Traditiona_lFeast_Order_Management {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+    }
+    private String timeNow(){
+        Date now = new Date();
     }
     
 }
