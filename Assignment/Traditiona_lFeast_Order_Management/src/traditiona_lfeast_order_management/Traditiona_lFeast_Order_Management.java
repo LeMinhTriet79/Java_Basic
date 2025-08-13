@@ -54,7 +54,7 @@ public class Traditiona_lFeast_Order_Management {
         try(BufferedReader doc = new BufferedReader(new FileReader(fileName))){
             String line;
             System.out.println("Nội dung file: ");
-            while ((line = doc.readLine()) != null)) {                
+            while ((line = doc.readLine()) != null) {                
                 
             }
         
