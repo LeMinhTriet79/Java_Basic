@@ -32,7 +32,7 @@ public class Traditiona_lFeast_Order_Management {
         String noiDung = "Ngày hiện tại: " + timeNow();
        // System.out.println(noiDung);
         
-        //writeToFile(fileName, noiDung);
+          writeToFile(fileName, noiDung);
           readFromFile(fileName);
     }
     private static String timeNow(){
