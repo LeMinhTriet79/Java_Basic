@@ -55,10 +55,12 @@ public class Traditiona_lFeast_Order_Management {
             String line;
             System.out.println("Nội dung file: ");
             while ((line = doc.readLine()) != null) {                
-                
+                System.out.println(line);
             }
         
     }   catch (FileNotFoundException ex) {
+            Logger.getLogger(Traditiona_lFeast_Order_Management.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
             Logger.getLogger(Traditiona_lFeast_Order_Management.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
