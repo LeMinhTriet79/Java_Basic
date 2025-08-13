@@ -19,7 +19,7 @@ public class Traditiona_lFeast_Order_Management {
      */
     public static void main(String[] args) {
         String thoiGian =  timeNow();
-        System.out.println("Ngày hịên tại: " + time);
+        System.out.println("Ngày hịên tại: " + timeNow());
     }
     private static String timeNow(){
         Date now = new Date();
