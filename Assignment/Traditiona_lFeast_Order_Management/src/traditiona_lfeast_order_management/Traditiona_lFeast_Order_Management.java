@@ -43,7 +43,7 @@ public class Traditiona_lFeast_Order_Management {
     private static void writeToFile(String fileName, String content){
         try(BufferedWriter viet = new BufferedWriter(new FileWriter(fileName, true))){
             viet.write(content);
-            viet
+            viet.newLine();
         } catch (IOException ex) {
             Logger.getLogger(Traditiona_lFeast_Order_Management.class.getName()).log(Level.SEVERE, null, ex);
         }
