@@ -23,7 +23,7 @@ public class Traditiona_lFeast_Order_Management {
     }
     private static String timeNow(){
         Date now = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("ddMMyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yy");
         return sdf.format(now);
     }
     
