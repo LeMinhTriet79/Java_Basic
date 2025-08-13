@@ -23,7 +23,7 @@ public class Traditiona_lFeast_Order_Management {
     }
     private static String timeNow(){
         Date now = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yy");
+        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm,dd-MM-yy");
         //Nếu mà ghi định dạng tháng là mm - chữ thuờng thì coi như là ra kết quả sai
         return sdf.format(now);
     }
