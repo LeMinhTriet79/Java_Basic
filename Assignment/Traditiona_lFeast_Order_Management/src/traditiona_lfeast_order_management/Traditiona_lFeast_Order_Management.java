@@ -40,13 +40,26 @@ public class Traditiona_lFeast_Order_Management {
     }
     
     //Ghi file
-    private static void writeToFile(String fileName, String content){
+    private static void writeToFile(String fileName, String noiDung){
         try(BufferedWriter viet = new BufferedWriter(new FileWriter(fileName, true))){
-            viet.write(content);
+            viet.write(noiDung);
             viet.newLine();
+            System.out.println("Ghi file thành công!!!");
         } catch (IOException ex) {
             Logger.getLogger(Traditiona_lFeast_Order_Management.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
+    private static void readFromFile(String fileName){
+        try(BufferedReader doc = new BufferedReader(new FileReader(fileName))){
+            String line;
+            System.out.println("Nội dung file: ");
+            while ((line = doc.readLine()) != null)) {                
+                
+            }
+        
+    }   catch (FileNotFoundException ex) {
+            Logger.getLogger(Traditiona_lFeast_Order_Management.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
