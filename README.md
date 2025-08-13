@@ -1,2 +1,2 @@
 # Java_Basic
-Phần Thử Nghiệm Kiến Thức Cơ Bản Về Java
+Phần Kiến Thức Cơ Bản Về Java Và Những Bài Tập Thực Hành
