@@ -30,10 +30,10 @@ public class Traditiona_lFeast_Order_Management {
   
         String fileName = "Ghi_File.txt";
         String noiDung = "Ngày hiện tại: " + timeNow();
-        System.out.println(noiDung);
+       // System.out.println(noiDung);
         
-        writeToFile(fileName, noiDung);
-         
+        //writeToFile(fileName, noiDung);
+          readFromFile(fileName);
     }
     private static String timeNow(){
         Date now = new Date();
