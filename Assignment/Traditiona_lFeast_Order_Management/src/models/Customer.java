@@ -16,6 +16,8 @@ public class Customer implements Serializable{
     String name;
     String yob;
 
+    
+    
     @Override
     public int hashCode() {
         int hash = 7;
