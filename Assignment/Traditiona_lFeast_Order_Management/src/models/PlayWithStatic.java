@@ -29,8 +29,8 @@ public class PlayWithStatic {
     
     
     //KHÔNG CÓ STATIC
-    public void daoLy(){
-        System.out.println("Cố gắng học hành, một ngày chỉ ngủ 8 tiếng thôi"
+    public void daoLy(String name){
+        System.out.println( name + "Cố gắng học hành, một ngày chỉ ngủ 8 tiếng thôi"
                 + "\n đừng có ngủ trưa mà tốn thời gian code");
     }
     

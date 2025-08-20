@@ -37,10 +37,14 @@ public class Traditiona_lFeast_Order_Management {
           //readFromFile(fileName);
         
         // CHƠI LẦN ĐẦU ĐÉO CÓ STATIC
+        System.out.println("CHƠI LẦN THỨ NHỨT/NHẤT: ");
+        String ten = "Văn Hoài: ";
         PlayWithStatic choi_lan_thu_nhat = new PlayWithStatic();
-        choi_lan_thu_nhat.daoLy();
+        choi_lan_thu_nhat.daoLy(fileName);
+         
         
         //CHƠI CÓ STATIC 
+        System.out.println("CHƠI LẦN THỨ NHÌ: ");
         PlayWithStatic.chuiThe();
         
         
