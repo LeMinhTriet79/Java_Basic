@@ -9,11 +9,10 @@ import example.Static_Variable;
  */
 public class Main {
     /*
-    static nghĩa là thuộc về lớp (class), không gắn với từng đối tượng (object).
-
+static nghĩa là thuộc về lớp (class), không gắn với từng đối tượng (object).
 Thành viên static (biến/hàm/khối/lớp lồng) tồn tại một bản duy nhất cho mỗi class loader trong suốt vòng đời lớp.
-
-Gọi/đụng đến qua tên lớp thay vì qua đối tượng.*/
+Gọi/đụng đến qua tên lớp thay vì qua đối tượng.
+    */
     
 public static void main(String[] args) {
          // CHƠI LẦN ĐẦU ĐÉO CÓ STATIC
