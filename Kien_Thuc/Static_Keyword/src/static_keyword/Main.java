@@ -30,12 +30,15 @@ public static void main(String[] args) {
         System.out.println(); //xuống dòng nó như cái dấu ENTER, cho dễ nhìn
         System.out.println("CHƠI LẦN THỨ NHÌ: CÓ DÙNG STATIC");
         PlayWithStatic.chuiThe();
+        System.out.println();
         
         
         /*************************************************************/
         //ĐẾM SỐ INSTANCE - SỐ ĐỐI TUỢNG ĐUỢC TẠO RA
         Static_Variable s1 = new Static_Variable();
-        System.out.println(s1);
+        new Static_Variable();
+        new Static_Variable();
+        System.out.println(Static_Variable.count);
         
     }
     
