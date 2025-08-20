@@ -30,6 +30,11 @@ public static void main(String[] args) {
         System.out.println("CHƠI LẦN THỨ NHÌ: CÓ DÙNG STATIC");
         PlayWithStatic.chuiThe();
         
+        
+        /*************************************************************/
+        //ĐẾM SỐ INSTANCE - SỐ ĐỐI TUỢNG ĐUỢC TẠO RA
+        
+        
     }
     
 }
