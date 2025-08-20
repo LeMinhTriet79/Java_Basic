@@ -2,6 +2,7 @@ package static_keyword;
 
 import example.PlayWithStatic;
 import example.Static_Variable;
+import example.Static_Variable_02;
 
 /**
  *
@@ -45,8 +46,12 @@ public static void main(String[] args) {
         new Static_Variable();
         new Static_Variable();
         //Mọi object đều dùng chung một cái biến count static
-        System.out.println(Static_Variable.count); //gọi thẳng cái lớp
-        //new bao nhiêu
+        System.out.println(Static_Variable.count); //gọi thẳng cái lớp xổ ra con số 3 - do new 3 lần
+        
+        //Truờng hợp không sử dụng Static
+        Static_Variable_02 a = new Static_Variable_02();
+        Static_Variable_02 b = new Static_Variable_02();
+        System.out.println(Static_Variable_02.count);
         
     }
     
