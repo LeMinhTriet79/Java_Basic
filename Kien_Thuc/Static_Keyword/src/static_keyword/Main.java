@@ -8,6 +8,13 @@ import example.Static_Variable;
  * @author Le Minh Triet
  */
 public class Main {
+    /*
+    static nghĩa là thuộc về lớp (class), không gắn với từng đối tượng (object).
+
+Thành viên static (biến/hàm/khối/lớp lồng) tồn tại một bản duy nhất cho mỗi class loader trong suốt vòng đời lớp.
+
+Gọi/đụng đến qua tên lớp thay vì qua đối tượng.*/
+    
 public static void main(String[] args) {
          // CHƠI LẦN ĐẦU ĐÉO CÓ STATIC
         System.out.println("CHƠI LẦN THỨ NHỨT/NHẤT KHÔNG DÙNG STATIC: ");
@@ -38,7 +45,9 @@ public static void main(String[] args) {
         Static_Variable s1 = new Static_Variable();
         new Static_Variable();
         new Static_Variable();
-        System.out.println(Static_Variable.count);
+        //Mọi object đều dùng chung một cái biến count static
+        System.out.println(Static_Variable.count); //gọi thẳng cái lớp
+        //new bao nhiêu
         
     }
     
