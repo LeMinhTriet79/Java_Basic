@@ -48,9 +48,13 @@ public class Traditiona_lFeast_Order_Management {
         PlayWithStatic choi_1 = new PlayWithStatic(ten1);
         choi_1.daoLy(ten1);
         // cứ thế mà tạo thêm nhiều đối tuợng chơi 2, chơi 3, chơi 4, chơi 5...
+        //CHO HAO TỔN RAM CHƠI
         //=============================================//
        
         //CHƠI CÓ STATIC 
+        //TAO ĐÉO CẦN NEW ĐỐI TUỢNG GÌ HẾT, HỔNG TẠO GÌ HẾT
+        //QUẤT THẲNG
+        System.out.println();
         System.out.println("CHƠI LẦN THỨ NHÌ: ");
         PlayWithStatic.chuiThe();
         
