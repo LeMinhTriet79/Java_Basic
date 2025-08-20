@@ -1,6 +1,7 @@
 package static_keyword;
 
 import example.PlayWithStatic;
+import example.Static_Variable;
 
 /**
  *
@@ -33,7 +34,8 @@ public static void main(String[] args) {
         
         /*************************************************************/
         //ĐẾM SỐ INSTANCE - SỐ ĐỐI TUỢNG ĐUỢC TẠO RA
-        
+        Static_Variable s1 = new Static_Variable();
+        System.out.println(s1);
         
     }
     
