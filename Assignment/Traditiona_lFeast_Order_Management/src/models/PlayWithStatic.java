@@ -38,7 +38,7 @@ public class PlayWithStatic {
     public static void chuiThe(){
         System.out.println("MẸ KIẾP THỜI GIAN MÀY NẰM NGỦ NÓ"
                 + "\n CÒN NHIỀU HƠN THỜI GIAN MÀY ÔN HỌC"
-                + "\n ÔNG BÀ GIÀ XƯA CÓ CÂU 'THAM ĂN THÌ NGU HAM NGỦ THÌ LÚ' "
+                + "\n ÔNG BÀ GIÀ XƯA CÓ CÂU 'HAM ĂN THÌ NGU HAM NGỦ THÌ LÚ' "
                 + "\n HỌC HÀNH MÀ ĐÉO CHỊU KHÓ THÌ VĨNH VIỄN ĐÉO CÓ NGÀY THÀNH CÔNG");
     }
 }

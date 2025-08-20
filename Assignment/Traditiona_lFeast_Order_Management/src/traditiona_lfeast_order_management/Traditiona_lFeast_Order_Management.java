@@ -37,7 +37,7 @@ public class Traditiona_lFeast_Order_Management {
           //readFromFile(fileName);
         
         // CHƠI LẦN ĐẦU ĐÉO CÓ STATIC
-        System.out.println("CHƠI LẦN THỨ NHỨT/NHẤT: ");
+        System.out.println("CHƠI LẦN THỨ NHỨT/NHẤT KHÔNG DÙNG STATIC: ");
         String ten = "Văn Hoài: ";
         PlayWithStatic choi_lan_thu_nhat = new PlayWithStatic(ten);
         choi_lan_thu_nhat.daoLy(ten);
@@ -54,8 +54,8 @@ public class Traditiona_lFeast_Order_Management {
         //CHƠI CÓ STATIC 
         //TAO ĐÉO CẦN NEW ĐỐI TUỢNG GÌ HẾT, HỔNG TẠO GÌ HẾT
         //QUẤT THẲNG
-        System.out.println();
-        System.out.println("CHƠI LẦN THỨ NHÌ: ");
+        System.out.println(); //xuống dòng nó như cái dấu ENTER, cho dễ nhìn
+        System.out.println("CHƠI LẦN THỨ NHÌ: CÓ DÙNG STATIC");
         PlayWithStatic.chuiThe();
         
         
