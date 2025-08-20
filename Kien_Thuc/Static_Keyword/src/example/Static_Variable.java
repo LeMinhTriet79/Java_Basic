@@ -11,6 +11,9 @@ package example;
  */
 public class Static_Variable {
     static int count = 0;
+
+    public Static_Variable() {
+    }
     
     
     
