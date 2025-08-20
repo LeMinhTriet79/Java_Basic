@@ -10,13 +10,16 @@ package models;
  * @author Le Minh Triet
  */
 public class PlayWithStatic {
+    static int c = 0;
     String name;
 
     public PlayWithStatic(String name) {
         this.name = name;
+        c += 1;
     }
 
     public PlayWithStatic() {
+       // c += 1;
     }
 
     public String getName() {
@@ -27,6 +30,9 @@ public class PlayWithStatic {
         this.name = name;
     }
     
+    public int count(){
+        return c;
+    }
     
     //KHÔNG CÓ STATIC
     public void daoLy(String name){

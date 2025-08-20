@@ -41,12 +41,14 @@ public class Traditiona_lFeast_Order_Management {
         String ten = "Văn Hoài: ";
         PlayWithStatic choi_lan_thu_nhat = new PlayWithStatic(ten);
         choi_lan_thu_nhat.daoLy(ten);
+        System.out.println(choi_lan_thu_nhat.count());
         // TAO THÍCH MUỐN SÀI THÌ NEW NEW NEW THÍCH THÌ NEW , KHÔNG THÍCH CŨNG NEW
         //NEW TỚI NỔI TRÀN BỘ NHỚ, HƯ MÁY ĐẬP MUA MÁY MỚI
         //KHÔNG NEW THÌ CHÚNG KHÔNG CHO SÀI CHO CHƠI
         String ten1 = "Khải Anh: ";
         PlayWithStatic choi_1 = new PlayWithStatic(ten1);
         choi_1.daoLy(ten1);
+        System.out.println(choi_1.count());
         // cứ thế mà tạo thêm nhiều đối tuợng chơi 2, chơi 3, chơi 4, chơi 5...
         //CHO HAO TỔN RAM CHƠI
         //=============================================//
