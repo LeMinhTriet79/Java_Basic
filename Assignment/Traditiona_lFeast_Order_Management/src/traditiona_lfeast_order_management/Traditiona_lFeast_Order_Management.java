@@ -15,6 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import models.PlayWithStatic;
 
 /**
  *
@@ -33,7 +34,10 @@ public class Traditiona_lFeast_Order_Management {
        // System.out.println(noiDung);
         
           //writeToFile(fileName, noiDung);
-          readFromFile(fileName);
+          //readFromFile(fileName);
+        
+        PlayWithStatic choi_lan_thu_nhat = new 
+        
     }
     private static String timeNow(){
         Date now = new Date();
