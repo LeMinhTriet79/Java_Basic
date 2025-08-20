@@ -36,8 +36,14 @@ public class Traditiona_lFeast_Order_Management {
           //writeToFile(fileName, noiDung);
           //readFromFile(fileName);
         
+        // CHƠI LẦN ĐẦU ĐÉO CÓ STATIC
         PlayWithStatic choi_lan_thu_nhat = new PlayWithStatic();
         choi_lan_thu_nhat.daoLy();
+        
+        //CHƠI CÓ STATIC 
+        PlayWithStatic.chuiThe();
+        
+        
         
     }
     private static String timeNow(){
