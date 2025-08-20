@@ -9,7 +9,7 @@ package static_keyword;
  *
  * @author Le Minh Triet
  */
-public class Static_Keyword {
+public class Main {
 
     /**
      * @param args the command line arguments
