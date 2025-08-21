@@ -17,5 +17,8 @@ public class Final {
     class A{
         public static final int VERSION = 1;
     }
-    class B { int v = A.VERSION; // 1 được "inline" vào B khi biên dịch } 
+    class B { 
+        int v = A.VERSION; // 1 được "inline" vào B khi biên dịch 
+        
+    }
 }
