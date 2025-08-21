@@ -17,8 +17,8 @@ Dùng chung cho mọi object của lớp.
 Khởi tạo khi lớp được initialize lần đầu; sống đến khi lớp bị dỡ (thường là hết chương trình).
 Mặc định về phạm vi truy cập (public/private/...) y như biến thường.
     */
-   public static int count = 0;
-   public int normalCount = 0;
+   public static int count = 0; //DÙNG CHUNG
+   public int normalCount = 0; // CHIA RIÊNG RA, KHÔNG CÓ SÀI CHUNG CHO TỪNG OBJECT
     public Static_Variable_02() {
         count ++;
         normalCount ++;
