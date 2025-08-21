@@ -51,7 +51,10 @@ public static void main(String[] args) {
         //Truờng hợp không sử dụng Static
         Static_Variable_02 a = new Static_Variable_02();
         Static_Variable_02 b = new Static_Variable_02();
-        System.out.println(Static_Variable_02.count);
+        System.out.println(Static_Variable_02.count); //gọi thẳng qua lớp/ CLASS
+        //đảm bảo là con số 1
+        System.out.println(a.normalCount); //1
+        System.out.println(b.normalCount); //1
         
     }
     
