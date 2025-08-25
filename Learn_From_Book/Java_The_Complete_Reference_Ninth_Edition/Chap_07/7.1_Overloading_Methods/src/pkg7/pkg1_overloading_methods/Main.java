@@ -15,7 +15,9 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Overload_Demo d = new Overload_Demo();
+        int a = d.test("a");
+        System.out.println(a);
     }
     
 }
