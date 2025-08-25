@@ -56,6 +56,7 @@ public class Object_Demo {
       b2.width = 18;
       System.out.println("Chiều rộng của b1 sau khi b2 thay đổi là: " + b1.width);
       // LÝ DO LÀ CẢ b1 VÀ b2 ĐỀU CÙNG TRỎ ĐẾN 1 OBJECT DUY NHỨT/NHẤT
+      //NẾU THAY ĐỔI b2.width thì b1.width cũng thay đổi, vì chúng tham chiếu cùng object
       
     }    
     
