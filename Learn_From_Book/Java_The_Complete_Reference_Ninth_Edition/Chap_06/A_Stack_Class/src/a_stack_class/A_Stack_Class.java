@@ -15,6 +15,16 @@ public class A_Stack_Class {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Stack s1 = new Stack();
+        Stack s2 = new Stack();
+        
+        for(int i = 0; i < 10; i++){
+            
+        }
+        
+        for(int i = 0; i < 10; i++){
+            
+        }
         
     }
     
