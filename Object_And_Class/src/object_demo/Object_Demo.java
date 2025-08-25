@@ -46,5 +46,8 @@ public class Object_Demo {
       System.out.println("======================");
       t0.display();
       t1.display();
+        System.out.println("");
     }    
+    
+    
 }

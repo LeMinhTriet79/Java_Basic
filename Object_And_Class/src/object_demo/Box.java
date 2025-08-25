@@ -10,5 +10,8 @@ package object_demo;
  * @author Le Minh Triet
  */
 public class Box {
+    double width ;
+    double height; 
     
+   
 }
