@@ -30,8 +30,18 @@ public class Stack {
             System.out.println("Stack is full");
         else
             stck[++tos] = item; // phải ++ truớc, nó sẽ cộng ngay tức khắp sau khi chạy dòng này
-        //ví dụ nếu a = 1, khi ghi a++ thì a vẫn bằng 1, khi chạy xong thì nó mới lên 2
+        //ví dụ nếu a = 1, khi ghi a++ thì a vẫn bằng 1, khi chạy hết thì nó mới lên 2
         // ghi ++a thì lập tức nó sẽ cộng thẳng vào truớc, đáp án sẽ là a = 2
+    }
+    
+    //Lấy ra
+    int pop(){
+        if(tos < 0){
+            System.out.println("Stack underflow");
+            return 0;
+        } else
+            return stck[tos --];
+        
     }
     
     
