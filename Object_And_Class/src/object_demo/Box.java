@@ -12,6 +12,18 @@ package object_demo;
 public class Box {
     double width, height, depth;
 
+    public Box(double width, double height, double depth) {
+        this.width = width;
+        this.height = height;
+        this.depth = depth;
+    }
+
+    public Box() {
+    }
+    
+
+    
+    
     double volume() {
         return width * height * depth;
     }
@@ -23,6 +35,9 @@ public class Box {
     public String toString() {
         return "Box{" + "width=" + width + ", height=" + height + ", depth=" + depth + '}';
     }
+
+   
+    
     
    
 }
