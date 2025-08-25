@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg6.pkg15_a_stack_class;
+package object_demo;
 
 /**
  *
@@ -23,10 +23,13 @@ public class Stack {
     //THÊM - PUSH
     void push(int item) {
         if(tos == 9) //nghĩa là mình cho nó cái mảng này có 10 phần tử là tối đa
-            //vị trí tos = 9 nghĩa là vị trí cuối cùng của mảng
+            //vị trí tos = 9 tuơng đuơng là vị trí cuối cùng của mảng dành cho phần tử thứ 10
+            //nghĩa là khi thêm phần tử cuối vào vị trí cuối - coi như là đầy ngăn xếp và tos có giá trị là 9
+            //ở thời điểm này thì tos như là cái biến cờ và cũng là cái biến đại diện cho vị trí trong mảng
+            //Nếu thêm phần tử cuối cùng vào thì tos sẽ là 9, thêm phần tử tiếp theo nữa thì lúc này tos lên 10 là tào lao
             System.out.println("Stack is full");
         else
-            stck[++tos] = item;
+            stck[++tos] = item; // phảu ++ truớc, vì cộng
     }
     
     

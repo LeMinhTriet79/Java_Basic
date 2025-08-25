@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg6.pkg15_a_stack_class;
+package a_stack_class;
 
 /**
  *
  * @author Le Minh Triet
  */
-public class Main {
+public class A_Stack_Class {
 
     /**
      * @param args the command line arguments
