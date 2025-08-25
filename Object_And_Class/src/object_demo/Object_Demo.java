@@ -48,9 +48,13 @@ public class Object_Demo {
       t1.display();
       System.out.println("====================================");
         
+      //Gán biến tham chiếu
       Box b1 = new Box();
       b1.width = 10;
-        System.out.println();
+      Box b2 = b1;
+      System.out.println( "Chieu rong la: "  + b2.width);
+      b2.width = 18;
+      System.out.println("Chiều rộng của b1 sau khi b2 thay đổi là: " + b1.width);
       
     }    
     
