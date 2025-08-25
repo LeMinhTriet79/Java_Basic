@@ -12,13 +12,17 @@ package example;
 public class Final {
     public static void main(String[] args) {
         System.out.println(A.VERSION);
-        System.out.println();
+        B t1 = new B();
+        System.out.println(t1.v);
     }
-    class A{
-        public static final int VERSION = 1;
+    static class A{
+        public static final int VERSION = 3;
     }
-    class B { 
+    static class B { 
         int v = A.VERSION; // 1 được "inline" vào B khi biên dịch 
+
+        public B() {
+        }
         
     }
 }
