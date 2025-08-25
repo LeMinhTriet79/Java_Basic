@@ -13,6 +13,13 @@ public class Overload_Demo {
     //NẠP CHỒNG PHUƠNG THỨC
     //nạp chồng phương thức, nghĩa là có nhiều phương thức cùng tên trong một lớp,
     //nhưng chúng phải có danh sách tham số khác nhau.
+    //Danh sách tham số khác nhau có thể là:
+
+//Số lượng tham số khác nhau.
+
+//Kiểu dữ liệu của tham số khác nhau.
+
+//Thứ tự các kiểu dữ liệu của tham số khác nhau
     void test(){
         System.out.println("No parameters");
     }
