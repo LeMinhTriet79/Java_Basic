@@ -20,6 +20,14 @@ public class Stack {
       //Nó sẽ đuợc khởi tạo mặt định trong cái QUẶN RỖNG/TRỐNG
     }
     
+    //THÊM - PUSH
+    void push(int item) {
+        if(tos == 9) //nghĩa là mình cho nó cái mảng này có 10 phần tử là tối đa
+            //vị trí tos = 9 nghĩa là vị trí cuối cùng của mảng
+            System.out.println("Stack is full");
+        else
+            stck[++tos] = item;
+    }
     
     
 }
