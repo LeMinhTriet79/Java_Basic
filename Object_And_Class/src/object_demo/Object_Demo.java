@@ -55,6 +55,7 @@ public class Object_Demo {
       System.out.println( "Chieu rong la: "  + b2.width);
       b2.width = 18;
       System.out.println("Chiều rộng của b1 sau khi b2 thay đổi là: " + b1.width);
+      // LÝ DO LÀ CẢ b1 VÀ b2 ĐỀU CÙNG TRỎ ĐẾN 1 OBJECT DUY NHỨT/NHẤT
       
     }    
     
