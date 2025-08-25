@@ -29,7 +29,7 @@ public class Stack {
             //Nếu thêm phần tử cuối cùng vào thì tos sẽ là 9, thêm phần tử tiếp theo nữa thì lúc này tos lên 10 là tào lao
             System.out.println("Stack is full");
         else
-            stck[++tos] = item; // phảu ++ truớc, nó sẽ cộng ngay tức khắp sau khi chạy dòng này
+            stck[++tos] = item; // phải ++ truớc, nó sẽ cộng ngay tức khắp sau khi chạy dòng này
         //ví dụ nếu a = 1, khi ghi a++ thì a vẫn bằng 1, khi chạy xong thì nó mới lên 2
         // ghi ++a thì lập tức nó sẽ cộng thẳng vào truớc, đáp án sẽ là a = 2
     }
