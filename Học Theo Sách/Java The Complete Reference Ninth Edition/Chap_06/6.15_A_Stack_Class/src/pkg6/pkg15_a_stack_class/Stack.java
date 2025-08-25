@@ -15,7 +15,11 @@ public class Stack {
     int tos;
 
     public Stack() {
+        tos = - 1 ; //Lý do cho nó bằng trừ 1 là dùng nó như số thứ tự vị trí mảng
+        //để thêm phần tử về sau , ví dụ vị trí 0 , 1 , 2 ,   ...
+      //Nó sẽ đuợc khởi tạo mặt định trong cái QUẶN RỖNG/TRỐNG
     }
+    
     
     
 }
