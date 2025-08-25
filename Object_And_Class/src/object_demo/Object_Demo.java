@@ -46,7 +46,12 @@ public class Object_Demo {
       System.out.println("======================");
       t0.display();
       t1.display();
-        System.out.println("");
+      System.out.println("====================================");
+        
+      Box b1 = new Box();
+      b1.width = 10;
+        System.out.println();
+      
     }    
     
     
