@@ -58,6 +58,14 @@ public class Object_Demo {
       // LÝ DO LÀ CẢ b1 VÀ b2 ĐỀU CÙNG TRỎ ĐẾN 1 OBJECT DUY NHỨT/NHẤT
       //NẾU THAY ĐỔI b2.width thì b1.width cũng thay đổi, vì chúng tham chiếu cùng object
       
+      //CHƠI THỬ PHUƠNG THỨC TRONG CLASS
+      Box play_B = new Box();
+      play_B.width = 10;
+      play_B.height = 20;
+      play_B.depth = 15;
+      
+        System.out.println("VOLUME = " + play_B.volume());
+      
     }    
     
     
