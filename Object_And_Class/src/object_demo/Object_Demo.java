@@ -55,6 +55,9 @@ public class Object_Demo {
       System.out.println( "Chieu rong la: "  + b2.width);
       b2.width = 18;
       System.out.println("Chiều rộng của b1 sau khi b2 thay đổi là: " + b1.width);
+     // b2 = null;
+     // b1 = null;
+        //System.out.println(b2.toString());
       // LÝ DO LÀ CẢ b1 VÀ b2 ĐỀU CÙNG TRỎ ĐẾN 1 OBJECT DUY NHỨT/NHẤT
       //NẾU THAY ĐỔI b2.width thì b1.width cũng thay đổi, vì chúng tham chiếu cùng object
       
@@ -65,6 +68,7 @@ public class Object_Demo {
       play_B.depth = 15;
       
         System.out.println("VOLUME = " + play_B.volume());
+        play_B.tinh(2);
       
     }    
     

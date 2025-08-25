@@ -15,6 +15,14 @@ public class Box {
     double volume() {
         return width * height * depth;
     }
+    void tinh(double t){
+        System.out.println("Test: " + this.width * this.height * this.depth * t);
+    }
+
+    @Override
+    public String toString() {
+        return "Box{" + "width=" + width + ", height=" + height + ", depth=" + depth + '}';
+    }
     
    
 }
